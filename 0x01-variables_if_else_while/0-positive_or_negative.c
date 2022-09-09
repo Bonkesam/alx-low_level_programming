@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 /*More headers goes here*/
 
 /**
@@ -8,7 +9,7 @@
  * Description: Executes numbers and runs them through if statements
  * Return: Always returns 0 (Success)
  */
-into main(void)
+int main(void)
 {
 	int n;
 

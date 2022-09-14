@@ -1,4 +1,4 @@
-#include "file"
+#include "main.h"
 
 /**
  * _islower - function to checks alphabet

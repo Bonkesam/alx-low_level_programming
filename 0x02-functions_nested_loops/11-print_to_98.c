@@ -1,19 +1,31 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
- * print_to_98 - Addition
- * @i: the number to be added
+ * print_to_98 - Prints to standard output
+ * @n: The number to print from
  *
- * description: prints number to 98
- * Return: always return nothing (succes)
+ * Description: This function prints numbers from
+ * n to 98
+ * Return: Always return 0 (Success)
  */
-void print_to_98(int i)
+
+int print_to_98(int n)
 {
-	if (i <= 98)
+	if (n >= 98)
 	{
-		_putchar(i);
-		_putchar(',');
-		_putchar(' ');
-		i++;
+		while (n > 98)
+		{
+			printf("%d, ", n--);
+		}
+		printf("%d\n", n);
+	}
+	else
+	{
+		while (n < 98)
+		{
+			printf("%d, ", n++);
+		}
+		printf("%d\n", n);
 	}
 }

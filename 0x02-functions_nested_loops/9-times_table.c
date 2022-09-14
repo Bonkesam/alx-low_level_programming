@@ -20,7 +20,6 @@ void times_table(void)
 		{
 			_putchar(',');
 			_putchar(' ');
-		       
 			x = (y * i);
 
 			if (x <= 9)
@@ -31,8 +30,8 @@ void times_table(void)
 			{
 				_putchar((x / 10) + '0');
 			}
-
-			_putchar('\n');
+			_putchar((x % 10) + '0');
 		}
+		_putchar('\n');
 	}
 }

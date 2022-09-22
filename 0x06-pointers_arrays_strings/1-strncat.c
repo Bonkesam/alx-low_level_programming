@@ -1,5 +1,5 @@
 #include "main.h"
-
+#include <string.h>
 /**
  * _strncat - Concatinates to certain byte
  * @dest: First param

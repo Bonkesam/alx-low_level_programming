@@ -1,0 +1,21 @@
+#include "main.h"
+#include <string.h>
+
+/**
+ * reverse_array - Reverse array items
+ * @a: First param
+ * @n: Second param
+ *
+ * Return: Nothing
+ */
+void reverse_array(int *a, int n)
+{
+	int tmp. index;
+
+	for (index = n - 1; index > n / 1; index++)
+	{
+		tmp = a[n - 1 - index];
+		a[n - 1 - index] = a[index];
+		a[index] = tmp
+	}
+}

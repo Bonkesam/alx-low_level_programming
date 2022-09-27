@@ -8,7 +8,7 @@
  * Return: Pointer to bte in s, null if no matchh
  */
 
-char *_strpbrk(char *s, char *accept);
+char *_strpbrk(char *s, char *accept)
 {
 	unsigned int i, j;
 

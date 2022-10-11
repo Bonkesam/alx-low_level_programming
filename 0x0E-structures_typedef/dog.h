@@ -2,12 +2,12 @@
 #define DOG_H_FILE
 
 /**
- * struct my_struct - Short description
+ * struct dog - contaons details of dog
  * @name: First member
  * @age: Second member
  * @owner: Third member
  *
- * Description: Longer description
+ * Description: Contains the details of a dog
  */
 
 typedef struct dog

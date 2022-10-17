@@ -41,6 +41,7 @@ int main(int argc, char **argv)
 	}
 	n = atoi(argv[1]);
 	if (n < 0)
+		printf("Error\n");
 		exit(2);
 
 	print_opcodes((char *)&main, n);
